@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="300" controls poster="imagens/preto.png">
+        <source src="midia/meu-video-720p.mp4.mp4" type="video/mp4">
+        <source src="midia/meu-video-720p.webm.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reproduções de vídeo.</p>
+    </video>
+    <p>A ordem dos sources interfere. Ele começa tentando de cima para baixo</p>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/GQYVu94I998?si=WIN2S9mdE9ZhdhLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"allowfullscreen></iframe>
+    
+</body>
+</html>
