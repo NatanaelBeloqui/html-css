@@ -6,22 +6,24 @@
     <title>Alinhamento vertical</title>
     <style>
         #container {
+            background-image: url(imagens/wallpaper003.jpg);
+            background-size: 100% 100%;
+
             position: relative;
-            height: 500px;
+            height: 97vh;
             background-color: purple;
-            padding: 10px;
         }
         #conteudo {
+            background-image: url(imagens/wallpaper003.jpg);
+            background-size: 100% 100%;
             position: absolute;
-            height: 200px;
-            width: 400px;
-            margin: auto;
+            height: 400px;
+            width: 800px;
             background-color: yellow;
-
-            left: 10px;
-            right: 20px;
-            /* Só dá para mexer diretamente com top, left e coisas do tipo se a posição for absoluta */
-            transform: translate();
+/* Só dá para mexer diretamente com top, left e coisas do tipo se a posição for absoluta */
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>

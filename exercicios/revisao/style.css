@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+header {
+
+}
+
+div {
+    padding: 50px;
+    padding-bottom: 0px
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    max-width: 350px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}
+
+nav {
+    height: 30px;
+    background-color: rgb(140, 207, 233);
+    background-image: linear-gradient(to right, rgb(45, 45, 253), rgb(140, 207, 233), rgb(224, 224, 224));
+    padding: 20px 0px 5px 30px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: black;
+    text-decoration: underline;
+    transition-duration: .6s;
+}
