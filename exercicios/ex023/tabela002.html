@@ -7,11 +7,13 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color:azure;
         }
 
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -20,22 +22,51 @@
             vertical-align: middle;
         }
 
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 3px;
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
         }
+/* Serve para fazer o zebrado nas tabelas  */
+        tbody > tr:nth-child(odd) {
+            background-color: yellow;
+        }
+    
+        tbody > tr:nth-child(even) {
+            background-color: white;
+        }
+
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 200px;">População</th>
             </tr>
         </thead>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>110.959.804</strong></td>
+            </tr>
+        </tfoot>
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -57,13 +88,127 @@
                 <td>Paraná</td>
                 <td>11 433 957</td>
             </tr>
-        </tbody>
-        <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td><strong>110.959.804</strong></td>
+                <td>Paraná</td>
+                <td>11 433 957</td>
             </tr>
-        </tfoot>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
